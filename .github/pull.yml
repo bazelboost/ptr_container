@@ -1,0 +1,7 @@
+version: "1"
+rules:
+- base: develop
+  upstream: boostorg:ptr_container
+  mergeMethod: rebase
+  conflictReviewers:
+  - zaucy
